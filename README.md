@@ -9,6 +9,7 @@ Galera được sử dụng để đồng bộ cơ sở dữ liệu Mysql.
 ### 2.1 Mô tả bài lab
 
 Có 1 server (Server1) cài Ubuntu 14.04 cài đặt mysql-server phiên bản 5.5, trong mysql 5.5 đã có các database có sẵn. 
+
 Mục tiêu: Xây dựng ra thêm server 2 sẽ đồng bộ toàn bộ dữ liệu trên Server1 sang Server2.
 
 ### 2.2 Các bước chuẩn bị
@@ -36,7 +37,7 @@ B2: Tải galera và mysql-server-wsrep 5.6 từ website Coderships
 
 B3: Tiếp tục cài gói sau: 
 
-   apt-get install libssl0.9.8  
+    apt-get install libssl0.9.8  
 
 B4: Giải nèn cài đặt các gói vừa tải về 
 
