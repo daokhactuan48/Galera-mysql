@@ -45,7 +45,7 @@ B3: Tiếp tục cài gói sau:
 
     apt-get install libssl0.9.8  
 
-B4: Giải nèn cài đặt các gói vừa tải về 
+B4: Giải nén và cài đặt các gói vừa tải về 
 
     dpkg -i galera-25.3.5-amd64.deb
     dpkg --force-all -i mysql-server-wsrep-5.6.16-25.5-amd64.deb
@@ -77,7 +77,7 @@ B3: Chỉnh sửa lại file cấu hình: vi /etc/mysql/conf.d/wsrep.cnf
     wsrep_node_incoming_address=10.145.37.51
     wsrep_cluster_address="gcomm://10.145.37.50"
 
-B4: B6: Restart lại dịch vụ mysql
+B4: Restart lại dịch vụ mysql
 
     # service mysql restart
 
