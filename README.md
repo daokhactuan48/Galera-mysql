@@ -89,7 +89,7 @@ B1 Chỉnh sửa file sau: /etc/mysql/conf.d/wsrep.cnf. Tìm đến dòng sau d�
 
 B2: Restart lại mysql
 
-   # service mysql restart
+    # service mysql restart 
 
 Sau khi Restart lại mysql trên server 1, quay lại server 2 restart lại mysql lần nữa và kiểm tra xem database đã được đồng bộ chưa. 
 
