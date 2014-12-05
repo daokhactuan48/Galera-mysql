@@ -15,12 +15,18 @@ Mục tiêu: Xây dựng ra thêm server 2 sẽ đồng bộ toàn bộ dữ li�
 ### 2.2 Các bước chuẩn bị
 
 Server2: 
-  OS: Ubuntu 14.04
-  IP: 10.145.37.51
+
+  +/ OS: Ubuntu 14.04
+
+  +/ IP: 10.145.37.51
+  
 Server1: 
-  OS: Ubuntu 14.04
-  IP: 10.145.37.50
-  Đã cài đặt sẵn mysql server 5.5 có sẵn cơ sở dữ liệu.
+
+  +/ OS: Ubuntu 14.04
+
+  +/ IP: 10.145.37.50
+  
+  +/ Đã cài đặt sẵn mysql server 5.5 có sẵn cơ sở dữ liệu.
 
 ### 2.3 Các bước thực hiện 
 
@@ -92,4 +98,5 @@ Bài lab đã kết thúc!
 # Tài Liệu tham khảo 
 
 http://www.fromdual.com/ugly-way-to-install-mysql-galera-cluster-5.6-on-ubuntu-14.04
+
 http://behindtheracks.com/2014/04/mysql-high-availability-with-galera-and-haproxy/
